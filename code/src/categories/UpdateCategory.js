@@ -11,7 +11,11 @@ export default function Category({ isOpen, onClose }) {
             <div className="bg-white p-8 rounded-lg">
                 <h2 className="text-2xl mb-4">Update for today</h2>
                 {/* Your form components go here */}
-                <button onClick={onClose} className="bg-blue-500 text-white py-2 px-4 rounded">
+                <form>
+                    <input type="text" className="text-base" placeholder="Enter updated value for today"></input><br/>
+                    {/* <input type="text" className="text-base pd-5" placeholder="Something else here"></input> */}
+                </form>
+                <button onClick={onClose} className="bg-blue-500 text-white mt-4 py-2 px-4 rounded text-lg">
                     Close
                 </button>
             </div>
