@@ -1,0 +1,16 @@
+.image-prop-container {
+    /* position: relative; */
+    /* width: 250px; */
+    /* height: 100px; */
+    overflow: hidden;
+}
+
+.image-prop {
+    /* position:absolute; */
+    top: 10;
+    right: 0;
+    /* width: 250px; */
+    height: 200px;
+    overflow: hidden;
+    fill: red;
+}
